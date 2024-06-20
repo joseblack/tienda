@@ -60,7 +60,8 @@ function CheckoutSideMenu() {
         <Link to='/my-orders/last'>
           <button
             className='w-full bg-black py-3 text-white rounded-lg'
-          onClick={() => handleCheckout()}>Checkout</button>
+            disabled={context.cartProducts.length > 0 ? false : true}
+            onClick={() => handleCheckout()}>Checkout</button>
         </Link>
       </div>
     </aside>
