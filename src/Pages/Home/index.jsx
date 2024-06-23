@@ -24,7 +24,7 @@ function Home() {
 
   return (
     <Layout>
-      <div className="flex items-center justify-center relative w-80 mb-3">
+      <div className="flex items-center justify-center relative w-80 mb-3 mt-4">
         <h1 className="font-medium text-xl">Exclusive Products</h1>
       </div>
       <input
